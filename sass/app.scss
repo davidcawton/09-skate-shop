@@ -6,10 +6,34 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import 'bourbon';
 @import 'neat';
 
+
+$picture_frame: 5px solid #fff;
+$brand_white: #e8e8e8;
+$brand_grey: rgb(84, 83, 84);
+$brand_white_transparent: rgba(251, 250, 252, 0.5);
+$drop_shadow: 0 5px 0 0 rgba(247, 248, 249, 0.83);
+
+
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  background: url(img/bg.jpg)
+  fixed  no-repeat;
+  background-size: cover;
+
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1040px;
+  overflow: hidden;
+  margin: auto;
+}
+
+@import '_header';
+@import '_article-section';
