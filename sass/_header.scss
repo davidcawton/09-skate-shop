@@ -62,6 +62,26 @@ header {
     background-color: rgb(255, 0, 0);
   }
 
+  .nav {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-items {
+    list-style: none;
+    background: $brand_red;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    color: $brand_white;
+    box-shadow: $drop_shadow;
+
+  }
+
   .header--images {
     display: flex;
     position: relative;
@@ -86,7 +106,7 @@ header {
 .radio-btns {
   text-align: center;
   margin-bottom: 10px;
-  color: red;
+  color: $brand_red;
 }
 
 .radio {

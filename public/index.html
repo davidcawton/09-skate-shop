@@ -16,12 +16,18 @@
         <a href="#" class="subscribe">Subscribe</a>
         <i class="fa fa-circle"></i>
         <ul class="header--social-bar">
-          <li class="social-bar__icons"><i class="fa fa-facebook"></i></li>
+          <li class="social-bar__icons"><i class="fa fa-facebook" id="top-fb"></i></li>
           <li class="social-bar__icons"><i class="fa fa-rss"></i></li>
           <li class="social-bar__icons"><i class="fa fa-twitter"></i></li>
           <li class="social-bar__icons"><i class="fa fa-youtube"></i></li>
         </ul>
       </div>
+      <ul class="nav">
+        <li class="nav-items">- Sk8t News -</li>
+        <li class="nav-items">- Skateboarders -</li>
+        <li class="nav-items">- Board Section -</li>
+        <li class="nav-items">- Contact Us -</li>
+      </ul>
       <div class="header--images">
         <img src="img/peralta-logo.png" class="header__logo">
         <img src="img/top-image.png" alt="" class="header__background">
@@ -55,23 +61,20 @@
     <section class="skate-boarders">
       <div class="skate-boarders--title">
         <h2 class="skateboarders">Skateboarders</h2>
+        <div class="arrow-right"></div>
       </div>
       <div class="skate-boarder--section">
-        <div class="sb-pictures" class="lance">
-          <p class="sb-text" id="lance"><strong>Lance Mountain</strong></p>
-          <img src="img/sk8er-4.png" alt="#" class="small-pic">
+        <div class="lance">
+          <a class="sb-text" id="lance"><strong>Lance Mountain</strong></a>
         </div>
-        <div class="sb-pictures" class="rodney">
-          <p class="sb-text" id="rod"><strong>Rodney Mullen</strong></p>
-          <img src="img/sk8er-3.png" alt="#" class="small-pic">
+        <div class="rodney">
+          <a class="sb-text" id="rod"><strong>Rodney Mullen</strong></a>
         </div>
-        <div class="sb-pictures" class="tommy">
-          <p class="sb-text" id="tom"><strong>Tommy Guerrerr</strong></p>
-          <img src="img/sk8er-2.png" alt="#" class="tall-pic">
+        <div class="tommy">
+          <a class="sb-text" id="tom"><strong>Tommy Guerrero</strong></a>
         </div>
-        <div class="sb-pictures" id="steve">
-          <p class="sb-text"><strong>Steve Caballero</strong></p>
-          <img src="img/sk8er-1.png" alt="#" class="wide-pic">
+        <div class="steve">
+          <a class="sb-text" id="cab"><strong>Steve Caballero</strong></a>
         </div>
       </div>
     </section>
@@ -94,18 +97,18 @@
         <h3 class="contact-us--title">Contact Us for More Information</h3>
         <p class="contact-us--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         <ul class="footer--social-bar">
-          <li class="footer__icons"><i class="fa fa-facebook"></i></li>
-          <li class="footer__icons"><i class="fa fa-rss"></i></li>
-          <li class="footer__icons"><i class="fa fa-twitter"></i></li>
-          <li class="footer__icons"><i class="fa fa-youtube"></i></li>
+          <li class="footer__icons"><i class="fa fa-facebook" id="footer-fb"></i></li>
+          <li class="footer__icons"><i class="fa fa-rss" id="nav-rss"></i></li>
+          <li class="footer__icons"><i class="fa fa-twitter" id="nav-twitter"></i></li>
+          <li class="footer__icons"><i class="fa fa-youtube" id="nav-youtube"></i></li>
         </ul>
       </div>
       <div class="footer-form">
         <form action="" class="contact-us-form">
-          <input type="text" name="Name" id="">
-          <input type="text" name="Email" id="">
-          <textarea name="Your Message" rows="8" cols="40"></textarea>
-          <input type="submit" name="submit" value="Submit">
+          <input class="contact-form--items" type="text" name="Name" id="name">
+          <input class="contact-form--items" type="text" name="Email" id="email">
+          <textarea class="contact-form--items" name="Your Message" rows="8" cols="40" id="message"></textarea>
+          <input class="contact-form--items" type="submit" name="submit" value="Submit" id="submit">
         </form>
       </div>
     </footer>

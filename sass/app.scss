@@ -10,6 +10,7 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 $picture_frame: 5px solid #fff;
 $brand_white: #e8e8e8;
 $brand_grey: rgb(84, 83, 84);
+$brand_red: rgb(164, 44, 32);
 $brand_white_transparent: rgba(251, 250, 252, 0.5);
 $drop_shadow: 0 5px 0 0 rgba(247, 248, 249, 0.83);
 
@@ -21,6 +22,7 @@ html {
   background: url(img/bg.jpg)
   fixed  no-repeat;
   background-size: cover;
+
 
 }
 *, *:before, *:after {
@@ -39,3 +41,5 @@ html {
 @import '_article-section';
 @import '_skateboarder-section';
 @import '_sb-section-text';
+@import '_skate-board-container';
+@import '_contact-section'
