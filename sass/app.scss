@@ -22,6 +22,7 @@ html {
   background: url(img/bg.jpg)
   fixed  no-repeat;
   background-size: cover;
+  font-family: 'Nixie One', sans-serif;
 
 
 }
@@ -42,4 +43,5 @@ html {
 @import '_skateboarder-section';
 @import '_sb-section-text';
 @import '_skate-board-container';
-@import '_contact-section'
+@import '_contact-section';
+@import '_tablet-layout';
