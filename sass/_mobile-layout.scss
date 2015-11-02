@@ -1,0 +1,250 @@
+@media only screen and (max-width: 460px) {
+
+  //
+  // HEADER
+  //
+
+  .header--social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fa-circle {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-items {
+    width: 300px;
+    font-size: .1em;
+    margin: 5px;
+  }
+
+  .header--images {
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .header__logo {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    top: 9%;
+    left: 22%;
+  }
+
+  .header__background {
+    width: 300px;
+    height: 200px;
+    border: $picture_frame;
+    box-shadow: $drop_shadow;
+  }
+
+  .radio-btns {
+    font-size: .5em;
+    text-align: center;
+    margin-bottom: 10px;
+    color: $brand_red;
+  }
+
+  //
+  // ARTICLE SECTION
+  //
+
+  .three-up {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    // flex: 1 0 calc(33.333% - auto);
+    margin: auto;
+  }
+
+  .three-up__box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: $brand_white;
+    padding: 10px;
+    box-shadow: $drop_shadow;
+  }
+
+
+  .box--subtext {
+    font-size: .8em;
+    color: $brand_grey;
+  }
+
+  .box--paragraph {
+    flex: 1;
+  }
+
+  .box--read-more {
+    text-align: center;
+    color: rgb(214, 0, 13);
+  }
+
+  //
+  // SKATEBOARDERS SECTION
+  //
+
+  .skate-boarder--section {
+  display: flex;
+  flex-basis: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  }
+
+  .skateboarders {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    padding: 0;
+    text-align: center;
+    left: 0;
+    font-size: 2em;
+
+    }
+
+    .arrow-right {
+      display: none;
+    }
+
+  .sb-text {
+    display: flex;
+    flex: 1;
+    color: $brand_white;
+    font-size: 3.2em;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+
+  .lance {
+    box-shadow: $drop_shadow;
+    border: $picture_frame;
+    display: flex;
+    width: 300px;
+    height: 220px;
+    margin: 5px;
+    background: url('img/sk8er-4.png')
+      right center no-repeat;
+    text-align: center;
+  }
+
+   .rodney{
+     box-shadow: $drop_shadow;
+     border: $picture_frame;
+    display: flex;
+     margin: 5px;
+    width: 300px;
+    height: 220px;
+    background: url('img/sk8er-3.png')
+      left center no-repeat;
+    text-align: center;
+  }
+
+  .tommy{
+    box-shadow: $drop_shadow;
+    border: $picture_frame;
+    display: flex;
+   margin: 5px;
+   width: 300px;
+   height: 220px;
+   background: url('img/sk8er-2.png')
+      center no-repeat;
+   text-align: center;
+  }
+
+  .steve {
+    box-shadow: $drop_shadow;
+    border: $picture_frame;
+    display: flex;
+   width: 300px;
+   height: 220px;
+   margin-top: 5px;
+   background: url('img/sk8er-1.png')
+     left  no-repeat;
+   text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+   }
+
+   .skate-board-section {
+     display: none;
+  }
+
+  footer {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .contact-us {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .contact-us--title {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .footer--social-bar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    flex: 1;
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+  }
+
+  contact-us-form {
+    margin: 0px;
+}
+
+.contact-form--items {
+  margin: 5px;
+}
+  #name, #email, {
+    width: 300px;
+  }
+
+  #message {
+    width: 300px;
+  }
+
+}

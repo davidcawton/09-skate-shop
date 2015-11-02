@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) and (min-width: 661px) {
+@media only screen and (max-width: 1024px) and (min-width: 460px) {
 //
 // HEADER
 //
@@ -105,7 +105,17 @@
   }
 
   .skateboarders {
-    display: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 0;
+    text-align: center;
+    left: 0;
+    font-size: 2em;
     }
 
     .arrow-right {
