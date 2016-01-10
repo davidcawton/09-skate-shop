@@ -3,6 +3,9 @@
   //
   // HEADER
   //
+  .container {
+    max-width: 460px;
+  }
 
   .header--social{
     display: flex;
@@ -30,7 +33,7 @@
   }
 
   .header--images {
-    width: 500px;
+    width: 460;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -107,7 +110,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 0;
   }
 
   .skateboarders {
@@ -233,11 +236,16 @@
   }
 
   contact-us-form {
-    margin: 0px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
 
 .contact-form--items {
-  margin: 5px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
 }
   #name, #email, {
     width: 300px;
