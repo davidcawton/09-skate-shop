@@ -1,0 +1,21 @@
+.skate-board-section {
+  width: calc(100%-20px);
+  margin: 10px;
+  display: flex;
+  flex: 1;
+  background: #fff;
+}
+
+.skate-board--container{
+  box-shadow: $drop_shadow;
+  color: $brand_white;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.skate-board {
+  margin: 10px;
+  background: #fff;
+  list-style: none;
+}

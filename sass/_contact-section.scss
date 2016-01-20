@@ -1,0 +1,85 @@
+.footer {
+  display: flex;
+  // width: 100%;
+  // height: 350px;
+  align-items: center;
+  margin: auto;
+  background: $brand_white;
+  box-shadow: $drop_shadow;
+
+}
+
+.contact-us {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+.contact-us--title {
+  text-align: left;
+  font-size: 2em;
+}
+
+.footer--social-bar {
+  display: flex;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.footer__icons {
+  list-style: none;
+  color: white;
+  transform: scale(.8);
+}
+
+#footer-fb {
+  background-color: #555;
+}
+
+#nav-rss {
+  background-color: #666;
+}
+
+#nav-twitter {
+  background-color: #777;
+}
+
+#nav-youtube {
+  background-color: #888;
+}
+
+.footer-form {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+
+.contact-us-form {
+  margin: 10px;
+  justify-content: center;
+}
+
+.contact-form--items {
+  margin: 5px;
+}
+
+#name, #email, {
+  width: 341px;
+  box-shadow: inset 1px 1px 1px 0px $brand_grey;
+}
+
+#message {
+  box-shadow: inset 1px 1px 1px 0px $brand_grey;
+}
+
+#submit {
+  background: $brand_red;
+  color: $brand_white;
+  box-shadow: $drop_shadow;
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  font-size: 1.2em;
+}

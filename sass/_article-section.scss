@@ -1,0 +1,29 @@
+.three-up {
+  display: flex;
+  flex: 1 0 calc(33.333% - auto);
+  margin: 10px;
+}
+
+.three-up__box {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  background-color: $brand_white;
+  padding: 10px;
+  box-shadow: $drop_shadow;
+}
+
+
+.box--subtext {
+  font-size: .8em;
+  color: $brand_grey;
+}
+
+.box--paragraph {
+  flex: 1;
+}
+
+.box--read-more {
+  text-align: center;
+  color: rgb(214, 0, 13);
+}
